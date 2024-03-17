@@ -1,0 +1,38 @@
+* {
+  font-family: roboto;
+}
+
+.header,
+.footer {
+  background-color: #ace2e1;
+  padding: 15px;
+  text-align: center;
+}
+
+.content ul {
+  margin: 0;
+  padding: 0;
+}
+
+.content li {
+  list-style-type: none;
+  margin: 4px 4px 4px 0;
+  padding: 8px;
+  background-color: #008dda;
+  cursor: pointer;
+}
+
+.content li:hover {
+  background-color: #41c9e2;
+}
+
+.content {
+  width: 25%;
+  display: inline-block;
+}
+
+.right {
+  width: calc(75% - 5px);
+  display: inline-block;
+  vertical-align: top;
+}
