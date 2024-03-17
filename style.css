@@ -20,6 +20,7 @@
   padding: 8px;
   background-color: #008dda;
   cursor: pointer;
+  text-align: center;
 }
 
 .content li:hover {
@@ -35,4 +36,14 @@
   width: calc(75% - 5px);
   display: inline-block;
   vertical-align: top;
+}
+
+.fazilet {
+  display: block;
+  text-align: center;
+}
+
+.fazilet img {
+  width: 30%;
+  height: 30%;
 }
